@@ -561,11 +561,17 @@ input:checked + .slide-container .nav label {
   overflow: hidden;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
   margin: 17px;
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .card2 img {
   width: 100%;
   height: auto;
+}
+
+.card2:hover {
+  transform: scale(1.05); /* Increase size on hover */
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3); /* Add a larger shadow on hover */
 }
 
 /*-------------------------------------------------------------Pengumuman.html-----------------------------------------------------------*/
@@ -595,6 +601,7 @@ input:checked + .slide-container .nav label {
   line-height: 1.6;
   color: #f2f2f2;
 }
+
 .prodi {
   background-color: #0477bf;
   height: 70px;
@@ -605,7 +612,7 @@ input:checked + .slide-container .nav label {
   margin-left: 40px;
 }
 .prodi h2 {
-  font-size: 25px;
+  font-size: 20px;
   margin-top: 50px;
   margin-left: 0px;
   margin-right: 10px;
@@ -614,6 +621,9 @@ input:checked + .slide-container .nav label {
   font-family: "Raleway", sans-serif;
   color: #f2f2f2;
   width: 300px;
+}
+.prodi a {
+  text-decoration: none;
 }
 
 .prodi-d4 {
@@ -626,7 +636,7 @@ input:checked + .slide-container .nav label {
   margin-left: 40px;
 }
 .prodi-d4 h2 {
-  font-size: 25px;
+  font-size: 20px;
   margin-top: 50px;
   margin-left: 2px;
   padding: 5%;
@@ -634,6 +644,9 @@ input:checked + .slide-container .nav label {
   font-family: "Raleway", sans-serif;
   color: #f2f2f2;
   width: 300px;
+}
+.prodi-d4 a {
+  text-decoration: none;
 }
 /* halaman fasilitas */
 
