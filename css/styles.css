@@ -434,6 +434,12 @@ input:checked + .slide-container .nav label {
   padding: 2px;
 }
 
+.pengumuman_pendaftaran {
+  background-color: #f9f9f9;
+  height: 900px;
+  padding: 2px;
+}
+
 .pengumuman-1 {
   background-color: #fff;
   height: 710px;
@@ -441,6 +447,14 @@ input:checked + .slide-container .nav label {
 }
 
 .pengumuman h1 {
+  font-size: 30px;
+  margin-top: 50px;
+  padding: 0;
+  text-align: center; /* Menjadikan judul terpusat */
+  font-family: "Raleway", sans-serif;
+}
+
+.pengumuman_pendaftaran h1 {
   font-size: 30px;
   margin-top: 50px;
   padding: 0;
